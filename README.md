@@ -7,3 +7,5 @@ Table of contents:
 Pyxem.yml - The file that can be used to construct the enviroment
 
 CroppedAndProcessing - Loads data for initial viewing and supplies widgets for callibrating the real space and recipricol space; normalises the data; crops and resaves if required. This should be the first file ran on on any new electron diffraction data.
+
+PowerSpectrum - Plots, adjusts and then performs Fourier transform on an image. Power spectrum (absolute value squared) from the Fourier transform and a simple peak search to find the locations of the spectral peaks.
