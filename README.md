@@ -10,5 +10,7 @@ CroppedAndProcessing - Loads data for initial viewing and supplies widgets for c
 
 PowerSpectrum - Plots, adjusts and then performs Fourier transform on an image. Power spectrum (absolute value squared) from the Fourier transform and a simple peak search to find the locations of the spectral peaks.
 
-For further information, the best place to search is the incredibly well structured Pyxem github: https://github.com/pyxem
-https://zenodo.org/records/15594715
+For further information, the best place to search is the incredibly well structured Pyxem github:
+https://github.com/pyxem which should be cited using: https://zenodo.org/records/15594715
+
+
