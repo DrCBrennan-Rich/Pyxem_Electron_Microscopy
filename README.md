@@ -8,7 +8,13 @@ Pyxem.yml - The file that can be used to construct the enviroment
 
 CroppedAndProcessing - Loads data for initial viewing and supplies widgets for callibrating the real space and recipricol space; normalises the data; crops and resaves if required. This should be the first file ran on on any new electron diffraction data.
 
+DarkFieldandSpotIntegration - Produces high-angle annular dark field (HAADF) images as well as the integrated spot diffraction pattern over a selected region. Also includes the ability to adjust pixels that are suffering intensity bleed through.
+
+PhaseMapTemplateMatching - Allows for the production of a phase map through the process of cross correlating each diffraction pattern in the data to a library of simulated diffraction patterns.
+
 PowerSpectrum - Plots, adjusts and then performs Fourier transform on an image. Power spectrum (absolute value squared) from the Fourier transform and a simple peak search to find the locations of the spectral peaks.
+
+SpotDiffractionSimulation - Simulate the spot diffraction patterns for visual comparison to data from the relevant crystallographic information file (CIF).
 
 For further information, the best place to search is the incredibly well structured Pyxem github:
 https://github.com/pyxem which should be cited using: https://zenodo.org/records/15594715
