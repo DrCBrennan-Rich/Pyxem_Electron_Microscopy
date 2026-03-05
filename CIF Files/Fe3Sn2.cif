@@ -1,0 +1,68 @@
+
+#======================================================================
+# CRYSTAL DATA, 5.343999 , 19.844999
+#----------------------------------------------------------------------
+data_VESTA_phase_1
+
+_chemical_name_common                  'New structure'
+_cell_length_a                         5.53
+_cell_length_b                         5.53
+_cell_length_c                         19.935
+_cell_angle_alpha                      90.000000
+_cell_angle_beta                       90.000000
+_cell_angle_gamma                      120.000000
+_cell_volume                           490.811174
+_space_group_name_H-M_alt              'R -3 m'
+_space_group_IT_number                 166
+
+loop_
+_space_group_symop_operation_xyz
+   'x, y, z'
+   '-x, -y, -z'
+   '-y, x-y, z'
+   'y, -x+y, -z'
+   '-x+y, -x, z'
+   'x-y, x, -z'
+   'y, x, -z'
+   '-y, -x, z'
+   'x-y, -y, -z'
+   '-x+y, y, z'
+   '-x, -x+y, -z'
+   'x, x-y, z'
+   'x+2/3, y+1/3, z+1/3'
+   '-x+2/3, -y+1/3, -z+1/3'
+   '-y+2/3, x-y+1/3, z+1/3'
+   'y+2/3, -x+y+1/3, -z+1/3'
+   '-x+y+2/3, -x+1/3, z+1/3'
+   'x-y+2/3, x+1/3, -z+1/3'
+   'y+2/3, x+1/3, -z+1/3'
+   '-y+2/3, -x+1/3, z+1/3'
+   'x-y+2/3, -y+1/3, -z+1/3'
+   '-x+y+2/3, y+1/3, z+1/3'
+   '-x+2/3, -x+y+1/3, -z+1/3'
+   'x+2/3, x-y+1/3, z+1/3'
+   'x+1/3, y+2/3, z+2/3'
+   '-x+1/3, -y+2/3, -z+2/3'
+   '-y+1/3, x-y+2/3, z+2/3'
+   'y+1/3, -x+y+2/3, -z+2/3'
+   '-x+y+1/3, -x+2/3, z+2/3'
+   'x-y+1/3, x+2/3, -z+2/3'
+   'y+1/3, x+2/3, -z+2/3'
+   '-y+1/3, -x+2/3, z+2/3'
+   'x-y+1/3, -y+2/3, -z+2/3'
+   '-x+y+1/3, y+2/3, z+2/3'
+   '-x+1/3, -x+y+2/3, -z+2/3'
+   'x+1/3, x-y+2/3, z+2/3'
+
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   _atom_site_type_symbol
+   Fe         1.0     0.494900     0.494900     0.113400    Uiso  0.050000 Fe
+   Sn1        1.0     0.000000     0.000000     0.103870    Uiso  0.050000 Sn
+   Sn2        1.0     0.000000     0.000000     0.331580    Uiso  0.050000 Sn
