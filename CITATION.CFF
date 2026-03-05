@@ -1,0 +1,10 @@
+If you use this software, please cite it as below
+authors:
+- family-names: "Brennan-Rich"
+  given-names: "Callum"
+  orcid: "https://orcid.org/0009-0009-0663-2870"
+title: "CBR_Pyxem"
+version: 1.0.1
+doi: 10.5281/zenodo.18880782
+date-released: 2026-03-05
+url: "https://github.com/DrCBrennan-Rich/Pyxem_Electron_Microscopy"
