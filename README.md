@@ -24,7 +24,7 @@ For further information, the best place to search is the incredibly well structu
 https://github.com/pyxem which should be cited using: https://zenodo.org/records/15594715
 
 As linked above, the most recent release of this repository can be cited with: https://doi.org/10.5281/zenodo.18880685
-If you make significant improvements/develop new features, feel free to produce your own release or even better push the change back to the original repository that this was forked from. Note that the GNU license (inhereited through pyxem from hyperspy) is required provided you did not completely rewrite this code from scratch.
+If you make significant improvements/develop new features, feel free to fork, produce your own release or even better push the change back to the original repository. Note that the GNU license (inhereited through pyxem from hyperspy) is required provided you did not completely rewrite this code from scratch.
 
 Extra note: Sometimes miscommunication arises between those who are more 'pragmatic users' of diffraction methods as a portion of their work, and those who spend their majority time studying and using diffraction techniques. Nowhere does this become more apparent, than when the topic of Miller indicies (hkl values), and brackets: (){}[]⟨⟩coincide. The key to remember, which is consistently applied across this project (or noted when deviated from):
 
