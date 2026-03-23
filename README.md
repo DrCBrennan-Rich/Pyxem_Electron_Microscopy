@@ -20,6 +20,8 @@ PowerSpectrum - Plots, adjusts and then performs Fourier transform on an image. 
 
 SpotDiffractionSimulation - Simulate the spot diffraction patterns for visual comparison to data from the relevant crystallographic information file (CIF).
 
+VirtualDarkFieldInteractive - Produces a virtual dark field image from the data. Custom function is implimented to allow better control of the signal axes in order to impove interactivity.
+
 For further information, the best place to search is the incredibly well structured Pyxem github:
 https://github.com/pyxem which should be cited using: https://zenodo.org/records/15594715
 
