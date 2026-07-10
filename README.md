@@ -16,7 +16,7 @@ DarkFieldandSpotIntegration - Produces high-angle annular dark field (HAADF) ima
 
 PhaseMapTemplateMatching - Allows for the production of a phase map through the process of cross correlating each diffraction pattern in the data to a library of simulated diffraction patterns.
 
-PowerSpectrum - Plots, adjusts and then performs Fourier transform on an image. Power spectrum (absolute value squared) from the Fourier transform and a simple peak search to find the locations of the spectral peaks.
+PowerSpectrumandBraggFiltering - Plots, adjusts and then performs Fourier transform on an image. Power spectrum (absolute value squared) from the Fourier transform and a simple peak search to find the locations of the spectral peaks. Also allows for simple Bragg filtering by performing an inverse Fourier transform on selected k-space spots to return periodic structure in real space.
 
 SpotDiffractionSimulation - Simulate the spot diffraction patterns for visual comparison to data from the relevant crystallographic information file (CIF).
 
