@@ -2,15 +2,15 @@
 [![DOI](https://zenodo.org/badge/1171564589.svg)](https://doi.org/10.5281/zenodo.18880685)
 
 This is a set of scripts developed throughout my PhD to perform both simple and complex operations on 4D-STEM data.
-Simple features include imaging real and recipricol space; producing high-angle annular dark field (HAADF) images; and callibrate, crop and Fourier transform images.
+Simple features include imaging real and reciprical space; producing high-angle annular dark field (HAADF) images; and callibrate, crop and Fourier transform images.
 More complex scripts focus on the use of template matching for phase and orientation assignment from the 4D-STEM data, as well as simulating nano-beam electron diffraction (NBED) patterns.
 
-Some useful baseline information: A 4D data set is described as such because each intensity is associated with four coordinates: diff_x and diff_y (the x and y coordinate on the 2d detector, in effect measuring in recipricol space) and nav_x and nav_y (the x and y coordinate in real space on the sample where the beam was directed to produce the 2D diffraction pattern that fell on the detector). The art of electron microscopy data anlysis is the manipulation and presentation of data in this 4D space. 
+Some useful baseline information: A 4D data set is described as such because each intensity is associated with four coordinates: diff_x and diff_y (the x and y coordinate on the 2d detector, in effect measuring in reciprical space) and nav_x and nav_y (the x and y coordinate in real space on the sample where the beam was directed to produce the 2D diffraction pattern that fell on the detector). The art of electron microscopy data anlysis is the manipulation and presentation of data in this 4D space. 
 
 Table of contents:
 Pyxem.yml - The file that can be used to construct the enviroment
 
-CroppedAndProcessing - Loads data for initial viewing and supplies widgets for callibrating the real space and recipricol space; normalises the data; crops and resaves if required. This should be the first file ran on on any new electron diffraction data.
+CroppedAndProcessing - Loads data for initial viewing and supplies widgets for callibrating the real space and reciprical space; normalises the data; crops and resaves if required. This should be the first file ran on on any new electron diffraction data.
 
 DarkFieldandSpotIntegration - Produces high-angle annular dark field (HAADF) images as well as the integrated spot diffraction pattern over a selected region. Also includes the ability to adjust pixels that are suffering intensity bleed through.
 
@@ -32,7 +32,7 @@ Extra note: Sometimes miscommunication arises between those who are more 'pragma
 
 hkl - referring to the hkl values themselves, "The hkl values of this reflection."
 
-(hkl) - a particular plane of atoms in real space, or reflection point in recipricol space (the reflection index).
+(hkl) - a particular plane of atoms in real space, or reflection point in reciprical space (the reflection index).
 
 [hkl] (though I personally prefer [uvw]) - a direction vector in real space.
 
